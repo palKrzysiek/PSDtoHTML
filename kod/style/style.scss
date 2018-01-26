@@ -1,0 +1,617 @@
+$main-font-size: 14px;
+
+*{
+	margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: 0;
+    outline: 0;
+    list-style-type: none;
+	box-sizing: border-box;
+	font-family: "Sintony";
+	letter-spacing: 0.35px;
+}
+.container{
+	//width: 1170px;
+	width: 70%;
+	margin: 0 auto;
+	
+}
+//body{width: 1970px;}
+
+
+/////HEADER START/////
+
+
+header{
+	position: fixed;
+	z-index: 9;
+	height: 10%;
+	background-color: white;
+	width: 100%;
+	.logo{
+		width: 20%;
+		float: left;
+		margin: 1%;
+	}
+	.main-menu{
+		width: 70%;
+		text-transform: uppercase;
+		float: right;
+		padding-top: 30px;
+		padding-right: 0px;
+		li{
+			list-style: none;
+			float: left;
+			margin-left: 3%;
+			font-weight: 700;
+			a{
+			font-size: $main-font-size ; 
+			color: #2c465a;
+			text-decoration: none;
+			list-style: none;	
+			}
+			button{
+				width: 130%;
+				height: 41px;
+				border: 1px solid #ffffff;
+				background-color: #fea100;
+				color: #ffffff;
+				border-radius: 1%;
+				box-shadow:  0 0 0 1px #fea100;
+				text-transform: uppercase;
+				transform: translateY(-15px);
+				img{
+					transform: translate(-10px, 4px);
+				}
+			}
+		}	
+	}
+}
+.shop{
+	position: relative;
+}
+.ring{
+	width: 15px;
+	height: 15px;
+	background-color: #fe4c8d;
+	border-radius: 50%;
+	font-size: 10px;
+	text-align: center;
+	padding: 2px;
+	position: absolute;
+	top: -8px;
+	right: -8px;
+}
+
+
+
+/////HEADER END/////
+
+/////INTRO SECTION START/////
+
+.intro-section{
+	width: 100vw;
+	height: 100vh;
+	max-height: 570px;
+	background-image: url(../img/zdjecie1.png);
+	padding-top: 228px;
+	
+	h1{
+	color: #ffffff;
+	font-family: "Playfair Display";
+	font-size: 56px;
+	}
+	p{
+	color: #ffffff;
+	font-family: "Playfair Display";
+	font-size: 40px;
+		span{
+			color: #fea100;
+		}
+	}
+}
+/////INTRO SECTION END/////
+
+
+
+/////CONTACT PANEL START//////
+.contact-section{
+	height: 100px;
+	width: 100%;
+	background-color: #edf1f3;
+	display: flex;
+	align-items: center;
+	position: relative;
+	.phone-number{
+		width: 25%;
+		min-width: 200px;
+		padding-top: 20px;
+		float: right;
+		margin: 0 px;
+}
+}
+
+.pentagon{
+    position: absolute; 
+    height: 186px;
+    top: -124px; 
+    transform: rotate(0deg) skew(0deg);
+    border-left: 92px solid #FE4C8D; 
+    border-right: 93px solid #FE4C8D; 
+    border-bottom: 40px solid transparent; 
+	p{
+		width: 103px;
+		height: 45px;
+		color: #ffffff;
+		font-family: "Playfair Display";
+		font-size: 22px;
+		font-weight: 700;
+		position: absolute;
+		left: -50px;
+		top: 60px;
+		text-align: center
+		}
+	div{
+		width: 80px;
+		height: 80px;
+		border: 3px solid #FE4C8D;
+		background-color: black;
+		border-radius: 50%;
+		position: absolute;
+		top: -40px;
+		left: -40px;
+		img{
+			padding-left: 14px;
+			padding-top: 5px;
+		}
+	}	
+}
+
+.phone-number{
+	color: #14141d;
+	font-family: "Playfair Display";
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 22px;
+}
+.contact-text{
+	&:after{
+	content: "";
+	height: 70px;
+	width: 2px;
+	margin-left: 20px;
+	background-color: grey;
+		margin: 0 15px;
+	}
+	width: 20%;
+	min-width: 200px;
+	color: #14141d;
+	font-size: 14px;
+	font-weight: 700;
+	float: right;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	.arrow{
+		width: 39px;
+		height: 39px;
+		border: 1px solid #ffffff;
+		background-color: #fea100;
+		font-size: 25px;
+		border-radius: 50%;
+		box-shadow: 0 0 0 4px #fea100;
+		text-align: center;
+		font-family:sans-serif;
+		color: black;
+		margin-left: 10px;
+		padding-top: 4px;
+		padding-left: 4px;
+	 }
+	img{
+		margin-right: 5px
+	}
+	span{
+		color: #fea100;
+		font-size: 16px;
+		margin: auto;
+		
+	}
+}
+
+
+/////CONTACT PANEL END//////
+
+
+
+/////Article "About" START//////
+
+article{
+		margin-top: 100px;
+		height: 526px;
+	h2{
+		width: 282px;
+		color: #14141d;
+		font-family: "Playfair Display";
+		font-size: 35px;
+		font-weight: 700;
+		line-height: 22px;
+	}
+	p{
+		color: #5c6369;
+		font-family: "Sintony";
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 26px;
+		padding: 38px 0;
+		width: 500px;
+	}
+	
+	.right-side{
+		img{
+			margin: 1% auto;
+			width: 48%;			
+		}
+	}
+	.left-side{
+		img{
+			width: 45%;
+			height: 71px;
+			transform: translate(49px, -10px);
+		}
+		.primary{
+	width: 149px;
+	height: 51px;
+}
+}
+	
+}
+.left-side{
+	width: 45%;
+	float: left;
+	display: flex;
+	flex-wrap: wrap;
+}
+.right-side{
+	width: 45%;
+	float: right;
+	display:flex;
+	flex-wrap: wrap;
+
+}
+.up-side{
+	transform: translateY(50px)
+}
+.primary{
+	width: 200px;
+	height: 50px;
+	background-color: #fea100;
+	color: #ffffff;
+	font-family: "Sintony";
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 2%;
+	}
+/////Article "About" END//////
+
+
+
+/////Section Menu Card START/////
+
+.cards-section{
+	text-align: center;
+	padding-top: 150px;
+	background-image: url(../img/img-1970x440.png);
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 110vh;
+	max-height: 1000px;
+	min-height: 950px;
+	h2{
+		text-align: center;
+		padding-bottom: 26px;
+		color: #ffffff;
+		font-family: "Playfair Display";
+		font-size: 35px;
+		font-weight: 700;
+		line-height: 22px;
+	}
+	.right-side{
+		width: 45%;
+		img{
+			width: 100%;
+		}
+	}
+	.left-side{
+		width: 45%;
+		img{
+			width: 100%;
+		}
+	}
+	.container{
+		position: relative;
+		>img{
+		position: absolute;
+		top: 545px;
+		left: 80%;
+		z-index: -1;
+			max-width: 30%;
+		}
+	}
+	
+}
+
+
+
+.cards-section{
+	
+}
+.card{
+	background-color: white;
+	box-shadow: 0 5px 11px 0px rgba(50, 50, 50, 0.37);;
+	div:first-of-type{
+		padding: 0 40px;
+		h3{
+			margin-top: 10px;
+		}
+		p{
+			color: #5c6369;
+			font-family: "Sintony";
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 22px;
+			margin: 20px auto;;
+	}
+}
+
+	div:last-of-type{ ////Div HomeDelivary text
+		width: 100%;
+		//float: left;
+		display: flex;
+		justify-content: center;
+		//padding: 0 20px;
+		margin: 10px auto;
+		border-top: 1px solid #e1e1e1;
+		p:first-child{
+			width: 20%;
+			margin: 5%;
+			font-family: "Sintony";
+			font-size: 13px;
+			font-weight: 700;
+			line-height: 17px;
+			text-transform: uppercase;
+			text-align: left;
+			border-right: 1px solid #e1e1e1;;
+			span{
+				color: #fe4c8d;
+				display: block;
+			}
+		}
+		.phone-number{
+			width: 60%;
+			margin-top: 5%
+		}
+		.price{
+			width: 40%;
+			margin-top: 5%;
+	}
+}
+}
+.price{
+			width: 20%;
+			color: #fea100;
+			font-family: "Playfair Display";
+			font-size: 30px;
+			font-weight: 700;
+			line-height: 22px;
+			margin-top: 10px;
+			span{
+				font-size: 15px;
+				vertical-align : top;
+	}
+}
+
+/////Section Menu Card END/////
+
+
+/////Section Food Menu Start/////
+
+
+
+.menu-section{
+	h2{
+		color: #14141d;
+		font-family: "Playfair Display";
+		font-size: 35px;
+		font-weight: 700;
+		text-align: center;
+		
+		}
+	.container{
+		&:first-child{
+			padding-top: 30px;
+			&:after{
+				content: "";
+				width: 100%;
+				left: 0;
+				position: absolute;
+				height: 1px;
+				background-color: grey;
+				display: block;
+			}
+	}
+}
+}
+///menu nav///
+.landspace-menu{
+	height: 15vh;
+	display: flex;
+	margin:0 auto;
+	width: 70%;
+	align-items: center;
+	li{
+		margin: 0 auto;
+		display: block;
+		color: #14141d;
+		font-family: "Playfair Display";
+		font-size: 20px;
+		font-weight: 700;
+		img{
+			display: block;
+			margin: 0 auto 7px;
+		}
+	}
+}
+///menu///
+.menu-list{
+	height: 50vh;
+	max-height: 400px;
+	display: flex;
+	flex-flow: wrap;
+	margin: 90px 0 0 0;
+	.food-about{
+		margin: 0 auto;
+		width: 38%;
+		height: 80px;
+		border-bottom: 3px solid #eeeeee;
+	}
+	h4{
+		color: #14141d;
+		font-family: "Sintony";
+		font-size: 16px;
+		font-weight: 700;
+		line-height: 17px;
+		text-transform: uppercase;
+		display: inline-block;
+		width: 80%;
+	}
+	p:first-of-type{
+		width: 80%;
+		color: #5c6369;
+		font-family: Sintony;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 26px;
+		display: inline-block;
+		
+	}
+	.price{
+		float: right;
+		margin-top: -10px;
+		width: 20%;
+	}
+}
+
+
+.menu-section{
+	position: relative;
+	.primary{
+		margin: 0 auto;
+		display: block;
+	}
+	>img{
+		position: absolute;
+		&:first-of-type{
+			left: 0;
+			top: 0;
+			max-width: 15%;
+		}
+		&:last-of-type{
+			left: 70%;
+			top: 670px;
+			z-index: 9;
+		}
+	}
+}
+
+
+
+/////Section Food Menu END/////
+
+
+
+/////Section Comments START/////
+
+
+.comments{
+	background-image: url(/img/img-bg-comments.png);
+	width: 100%;
+	height: 60vh;
+	max-height: 465px;
+	margin-top: 5%;
+	position: relative;
+	h2{
+		color: #ffffff;
+		font-family: "Playfair Display";
+		font-size: 35px;
+		font-weight: 700;
+		line-height: 22px;	
+		text-align: center;
+		padding-top:  10%;
+	}
+	p{
+		color: #ffffff;
+		font-family: "Sintony";
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 26px;	
+		text-align: center;
+		width: 50%;
+		margin: 1% auto 0;
+	}
+	.lt{
+		color: white;
+		font-size: 50px;
+		display: inline;
+		position: absolute;
+		left: 10%;
+		top:40%;
+		font-family: monospace;
+	}
+	.gt{
+		color: white;
+		font-size: 50px;
+		display: inline;
+		position: absolute;
+		right: 10%;
+		top: 40%;
+		font-family: monospace;
+	}
+	span{
+		font-size: 50px;
+		position: absolute;
+		top: 40%;
+		left: 20%;
+		font-family: "Playfair Display";
+		
+	}
+	span:last-of-type{
+			left: auto;
+			right: 20%;
+			top: 55%;	
+		}
+}
+
+.personal-comment{
+	
+	.img{
+		border: 2px solid white;
+		border-radius: 50%;
+		width: 65px;
+		height: 65px;
+		background-image: url(/img/img-person-comment.png);
+		background-position: top;
+		margin: 0 auto;
+	}
+	p{
+		height: 40%;	
+		margin: 0 auto;
+	}
+	.stars{
+		color: gold;
+		margin: 0 auto;
+}
+}
+
+
