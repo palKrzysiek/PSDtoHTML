@@ -1,4 +1,4 @@
-/* line 3, style.scss */
+/* line 3, style/style.scss */
 * {
   margin: 0;
   padding: 0;
@@ -10,43 +10,43 @@
   font-family: "Sintony";
   letter-spacing: 0.35px; }
 
-/* line 14, style.scss */
+/* line 14, style/style.scss */
 .container {
   width: 70%;
   margin: 0 auto; }
 
-/* line 26, style.scss */
+/* line 26, style/style.scss */
 header {
   position: fixed;
   z-index: 9;
   height: 10%;
   background-color: white;
   width: 100%; }
-  /* line 32, style.scss */
+  /* line 32, style/style.scss */
   header .logo {
     width: 20%;
     float: left;
     margin: 1%; }
-  /* line 37, style.scss */
+  /* line 37, style/style.scss */
   header .main-menu {
     width: 70%;
     text-transform: uppercase;
     float: right;
     padding-top: 30px;
     padding-right: 0px; }
-    /* line 43, style.scss */
+    /* line 43, style/style.scss */
     header .main-menu li {
       list-style: none;
       float: left;
       margin-left: 3%;
       font-weight: 700; }
-      /* line 48, style.scss */
+      /* line 48, style/style.scss */
       header .main-menu li a {
         font-size: 14px;
         color: #2c465a;
         text-decoration: none;
         list-style: none; }
-      /* line 54, style.scss */
+      /* line 54, style/style.scss */
       header .main-menu li button {
         width: 130%;
         height: 41px;
@@ -57,15 +57,15 @@ header {
         box-shadow: 0 0 0 1px #fea100;
         text-transform: uppercase;
         transform: translateY(-15px); }
-        /* line 64, style.scss */
+        /* line 64, style/style.scss */
         header .main-menu li button img {
           transform: translate(-10px, 4px); }
 
-/* line 71, style.scss */
+/* line 71, style/style.scss */
 .shop {
   position: relative; }
 
-/* line 74, style.scss */
+/* line 74, style/style.scss */
 .ring {
   width: 15px;
   height: 15px;
@@ -78,28 +78,28 @@ header {
   top: -8px;
   right: -8px; }
 
-/* line 93, style.scss */
+/* line 93, style/style.scss */
 .intro-section {
   width: 100vw;
   height: 100vh;
   max-height: 570px;
   background-image: url(../img/zdjecie1.png);
   padding-top: 228px; }
-  /* line 100, style.scss */
+  /* line 100, style/style.scss */
   .intro-section h1 {
     color: #ffffff;
     font-family: "Playfair Display";
     font-size: 56px; }
-  /* line 105, style.scss */
+  /* line 105, style/style.scss */
   .intro-section p {
     color: #ffffff;
     font-family: "Playfair Display";
     font-size: 40px; }
-    /* line 109, style.scss */
+    /* line 109, style/style.scss */
     .intro-section p span {
       color: #fea100; }
 
-/* line 119, style.scss */
+/* line 119, style/style.scss */
 .contact-section {
   height: 100px;
   width: 100%;
@@ -107,7 +107,7 @@ header {
   display: flex;
   align-items: center;
   position: relative; }
-  /* line 126, style.scss */
+  /* line 126, style/style.scss */
   .contact-section .phone-number {
     width: 25%;
     min-width: 200px;
@@ -115,7 +115,7 @@ header {
     float: right;
     margin: 0 px; }
 
-/* line 135, style.scss */
+/* line 135, style/style.scss */
 .pentagon {
   position: absolute;
   height: 186px;
@@ -124,7 +124,7 @@ header {
   border-left: 92px solid #FE4C8D;
   border-right: 93px solid #FE4C8D;
   border-bottom: 40px solid transparent; }
-  /* line 143, style.scss */
+  /* line 143, style/style.scss */
   .pentagon p {
     width: 103px;
     height: 45px;
@@ -136,7 +136,7 @@ header {
     left: -50px;
     top: 60px;
     text-align: center; }
-  /* line 155, style.scss */
+  /* line 155, style/style.scss */
   .pentagon div {
     width: 80px;
     height: 80px;
@@ -146,12 +146,12 @@ header {
     position: absolute;
     top: -40px;
     left: -40px; }
-    /* line 164, style.scss */
+    /* line 164, style/style.scss */
     .pentagon div img {
       padding-left: 14px;
       padding-top: 5px; }
 
-/* line 171, style.scss */
+/* line 171, style/style.scss */
 .phone-number {
   color: #14141d;
   font-family: "Playfair Display";
@@ -159,7 +159,7 @@ header {
   font-weight: 700;
   line-height: 22px; }
 
-/* line 178, style.scss */
+/* line 178, style/style.scss */
 .contact-text {
   width: 20%;
   min-width: 200px;
@@ -170,7 +170,7 @@ header {
   display: flex;
   align-items: center;
   text-align: center; }
-  /* line 179, style.scss */
+  /* line 179, style/style.scss */
   .contact-text:after {
     content: "";
     height: 70px;
@@ -178,7 +178,7 @@ header {
     margin-left: 20px;
     background-color: grey;
     margin: 0 15px; }
-  /* line 196, style.scss */
+  /* line 196, style/style.scss */
   .contact-text .arrow {
     width: 39px;
     height: 39px;
@@ -193,20 +193,20 @@ header {
     margin-left: 10px;
     padding-top: 4px;
     padding-left: 4px; }
-  /* line 211, style.scss */
+  /* line 211, style/style.scss */
   .contact-text img {
     margin-right: 5px; }
-  /* line 214, style.scss */
+  /* line 214, style/style.scss */
   .contact-text span {
     color: #fea100;
     font-size: 16px;
     margin: auto; }
 
-/* line 229, style.scss */
+/* line 229, style/style.scss */
 article {
   margin-top: 100px;
   height: 526px; }
-  /* line 232, style.scss */
+  /* line 232, style/style.scss */
   article h2 {
     width: 282px;
     color: #14141d;
@@ -214,7 +214,7 @@ article {
     font-size: 35px;
     font-weight: 700;
     line-height: 22px; }
-  /* line 240, style.scss */
+  /* line 240, style/style.scss */
   article p {
     color: #5c6369;
     font-family: "Sintony";
@@ -223,39 +223,39 @@ article {
     line-height: 26px;
     padding: 38px 0;
     width: 500px; }
-  /* line 251, style.scss */
+  /* line 251, style/style.scss */
   article .right-side img {
     margin: 1% auto;
     width: 48%; }
-  /* line 257, style.scss */
+  /* line 257, style/style.scss */
   article .left-side img {
     width: 45%;
     height: 71px;
     transform: translate(49px, -10px); }
-  /* line 262, style.scss */
+  /* line 262, style/style.scss */
   article .left-side .primary {
     width: 149px;
     height: 51px; }
 
-/* line 269, style.scss */
+/* line 269, style/style.scss */
 .left-side {
   width: 45%;
   float: left;
   display: flex;
   flex-wrap: wrap; }
 
-/* line 275, style.scss */
+/* line 275, style/style.scss */
 .right-side {
   width: 45%;
   float: right;
   display: flex;
   flex-wrap: wrap; }
 
-/* line 282, style.scss */
+/* line 282, style/style.scss */
 .up-side {
   transform: translateY(50px); }
 
-/* line 285, style.scss */
+/* line 285, style/style.scss */
 .primary {
   width: 200px;
   height: 50px;
@@ -267,7 +267,7 @@ article {
   text-transform: uppercase;
   border-radius: 2%; }
 
-/* line 302, style.scss */
+/* line 302, style/style.scss */
 .cards-section {
   text-align: center;
   padding-top: 150px;
@@ -277,7 +277,7 @@ article {
   height: 110vh;
   max-height: 1000px;
   min-height: 950px; }
-  /* line 311, style.scss */
+  /* line 311, style/style.scss */
   .cards-section h2 {
     text-align: center;
     padding-bottom: 26px;
@@ -286,22 +286,22 @@ article {
     font-size: 35px;
     font-weight: 700;
     line-height: 22px; }
-  /* line 320, style.scss */
+  /* line 320, style/style.scss */
   .cards-section .right-side {
     width: 45%; }
-    /* line 322, style.scss */
+    /* line 322, style/style.scss */
     .cards-section .right-side img {
       width: 100%; }
-  /* line 326, style.scss */
+  /* line 326, style/style.scss */
   .cards-section .left-side {
     width: 45%; }
-    /* line 328, style.scss */
+    /* line 328, style/style.scss */
     .cards-section .left-side img {
       width: 100%; }
-  /* line 332, style.scss */
+  /* line 332, style/style.scss */
   .cards-section .container {
     position: relative; }
-    /* line 334, style.scss */
+    /* line 334, style/style.scss */
     .cards-section .container > img {
       position: absolute;
       top: 545px;
@@ -309,17 +309,17 @@ article {
       z-index: -1;
       max-width: 30%; }
 
-/* line 350, style.scss */
+/* line 350, style/style.scss */
 .card {
   background-color: white;
   box-shadow: 0 5px 11px 0px rgba(50, 50, 50, 0.37); }
-  /* line 353, style.scss */
+  /* line 353, style/style.scss */
   .card div:first-of-type {
     padding: 0 40px; }
-    /* line 355, style.scss */
+    /* line 355, style/style.scss */
     .card div:first-of-type h3 {
       margin-top: 10px; }
-    /* line 358, style.scss */
+    /* line 358, style/style.scss */
     .card div:first-of-type p {
       color: #5c6369;
       font-family: "Sintony";
@@ -327,14 +327,14 @@ article {
       font-weight: 400;
       line-height: 22px;
       margin: 20px auto; }
-  /* line 368, style.scss */
+  /* line 368, style/style.scss */
   .card div:last-of-type {
     width: 100%;
     display: flex;
     justify-content: center;
     margin: 10px auto;
     border-top: 1px solid #e1e1e1; }
-    /* line 376, style.scss */
+    /* line 376, style/style.scss */
     .card div:last-of-type p:first-child {
       width: 20%;
       margin: 5%;
@@ -345,20 +345,20 @@ article {
       text-transform: uppercase;
       text-align: left;
       border-right: 1px solid #e1e1e1; }
-      /* line 386, style.scss */
+      /* line 386, style/style.scss */
       .card div:last-of-type p:first-child span {
         color: #fe4c8d;
         display: block; }
-    /* line 391, style.scss */
+    /* line 391, style/style.scss */
     .card div:last-of-type .phone-number {
       width: 60%;
       margin-top: 5%; }
-    /* line 395, style.scss */
+    /* line 395, style/style.scss */
     .card div:last-of-type .price {
       width: 40%;
       margin-top: 5%; }
 
-/* line 401, style.scss */
+/* line 401, style/style.scss */
 .price {
   width: 20%;
   color: #fea100;
@@ -367,12 +367,12 @@ article {
   font-weight: 700;
   line-height: 22px;
   margin-top: 10px; }
-  /* line 409, style.scss */
+  /* line 409, style/style.scss */
   .price span {
     font-size: 15px;
     vertical-align: top; }
 
-/* line 423, style.scss */
+/* line 423, style/style.scss */
 .menu-section h2 {
   color: #14141d;
   font-family: "Playfair Display";
@@ -380,10 +380,10 @@ article {
   font-weight: 700;
   text-align: center; }
 
-/* line 432, style.scss */
+/* line 432, style/style.scss */
 .menu-section .container:first-child {
   padding-top: 30px; }
-  /* line 434, style.scss */
+  /* line 434, style/style.scss */
   .menu-section .container:first-child:after {
     content: "";
     width: 100%;
@@ -393,14 +393,14 @@ article {
     background-color: grey;
     display: block; }
 
-/* line 447, style.scss */
+/* line 447, style/style.scss */
 .landspace-menu {
   height: 15vh;
   display: flex;
   margin: 0 auto;
   width: 70%;
   align-items: center; }
-  /* line 453, style.scss */
+  /* line 453, style/style.scss */
   .landspace-menu li {
     margin: 0 auto;
     display: block;
@@ -408,25 +408,25 @@ article {
     font-family: "Playfair Display";
     font-size: 20px;
     font-weight: 700; }
-    /* line 460, style.scss */
+    /* line 460, style/style.scss */
     .landspace-menu li img {
       display: block;
       margin: 0 auto 7px; }
 
-/* line 467, style.scss */
+/* line 467, style/style.scss */
 .menu-list {
   height: 50vh;
   max-height: 400px;
   display: flex;
   flex-flow: wrap;
   margin: 90px 0 0 0; }
-  /* line 473, style.scss */
+  /* line 473, style/style.scss */
   .menu-list .food-about {
     margin: 0 auto;
     width: 38%;
     height: 80px;
     border-bottom: 3px solid #eeeeee; }
-  /* line 479, style.scss */
+  /* line 479, style/style.scss */
   .menu-list h4 {
     color: #14141d;
     font-family: "Sintony";
@@ -436,7 +436,7 @@ article {
     text-transform: uppercase;
     display: inline-block;
     width: 80%; }
-  /* line 489, style.scss */
+  /* line 489, style/style.scss */
   .menu-list p:first-of-type {
     width: 80%;
     color: #5c6369;
@@ -445,42 +445,42 @@ article {
     font-weight: 400;
     line-height: 26px;
     display: inline-block; }
-  /* line 499, style.scss */
+  /* line 499, style/style.scss */
   .menu-list .price {
     float: right;
     margin-top: -10px;
     width: 20%; }
 
-/* line 507, style.scss */
+/* line 507, style/style.scss */
 .menu-section {
   position: relative; }
-  /* line 509, style.scss */
+  /* line 509, style/style.scss */
   .menu-section .primary {
     margin: 0 auto;
     display: block; }
-  /* line 513, style.scss */
+  /* line 513, style/style.scss */
   .menu-section > img {
     position: absolute; }
-    /* line 515, style.scss */
+    /* line 515, style/style.scss */
     .menu-section > img:first-of-type {
       left: 0;
       top: 0;
       max-width: 15%; }
-    /* line 520, style.scss */
+    /* line 520, style/style.scss */
     .menu-section > img:last-of-type {
       left: 70%;
       top: 670px;
       z-index: 9; }
 
-/* line 537, style.scss */
+/* line 537, style/style.scss */
 .comments {
-  background-image: url(../img/img-bg-comments.png);
+  background-image: url("../img/img-bg-comments.png");
   width: 100%;
   height: 60vh;
   max-height: 465px;
   margin-top: 5%;
   position: relative; }
-  /* line 544, style.scss */
+  /* line 544, style/style.scss */
   .comments h2 {
     color: #ffffff;
     font-family: "Playfair Display";
@@ -489,7 +489,7 @@ article {
     line-height: 22px;
     text-align: center;
     padding-top: 10%; }
-  /* line 553, style.scss */
+  /* line 553, style/style.scss */
   .comments p {
     color: #ffffff;
     font-family: "Sintony";
@@ -499,7 +499,7 @@ article {
     text-align: center;
     width: 50%;
     margin: 1% auto 0; }
-  /* line 563, style.scss */
+  /* line 563, style/style.scss */
   .comments .lt {
     color: white;
     font-size: 50px;
@@ -508,7 +508,7 @@ article {
     left: 10%;
     top: 40%;
     font-family: monospace; }
-  /* line 572, style.scss */
+  /* line 572, style/style.scss */
   .comments .gt {
     color: white;
     font-size: 50px;
@@ -517,37 +517,158 @@ article {
     right: 10%;
     top: 40%;
     font-family: monospace; }
-  /* line 581, style.scss */
+  /* line 581, style/style.scss */
   .comments span {
     font-size: 50px;
     position: absolute;
     top: 40%;
     left: 20%;
     font-family: "Playfair Display"; }
-  /* line 589, style.scss */
+  /* line 589, style/style.scss */
   .comments span:last-of-type {
     left: auto;
     right: 20%;
     top: 55%; }
 
-/* line 598, style.scss */
+/* line 598, style/style.scss */
 .personal-comment .img {
   border: 2px solid white;
   border-radius: 50%;
   width: 65px;
   height: 65px;
-  background-image: url(../img/img-person-comment.png);
+  background-image: url("../img/img-person-comment.png");
   background-position: top;
   margin: 0 auto; }
 
-/* line 607, style.scss */
+/* line 607, style/style.scss */
 .personal-comment p {
   height: 40%;
   margin: 0 auto; }
 
-/* line 611, style.scss */
+/* line 611, style/style.scss */
 .personal-comment .stars {
   color: gold;
   margin: 0 auto; }
+
+/* line 625, style/style.scss */
+.order-form h2 {
+  color: #000000;
+  font-family: "Playfair Display";
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 22px;
+  margin: 90px 0 10px;
+  text-align: center; }
+
+/* line 634, style/style.scss */
+.order-form img {
+  width: 40%;
+  margin: 5%; }
+
+/* line 638, style/style.scss */
+.order-form form {
+  margin: 110px 0 50px 0; }
+  /* line 640, style/style.scss */
+  .order-form form input {
+    border-bottom: solid grey 1px;
+    width: 20%;
+    padding: 10px;
+    margin: 10px 5px 10px 0; }
+
+/* line 647, style/style.scss */
+.order-form .primary {
+  float: left; }
+
+/* line 650, style/style.scss */
+.order-form p {
+  width: 13%;
+  float: left;
+  margin: 0.5% 0; }
+
+/* line 655, style/style.scss */
+.order-form .text {
+  color: #14141d;
+  font-family: Sintony;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 17px;
+  text-transform: uppercase;
+  text-align: center; }
+  /* line 663, style/style.scss */
+  .order-form .text span {
+    color: #fe4c8d;
+    display: block; }
+
+/* line 676, style/style.scss */
+footer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 400px 40px;
+  grid-template-areas: "navi newsletter apps"  "line1 copyright line2";
+  background-color: #373844; }
+  /* line 685, style/style.scss */
+  footer h3 {
+    color: white; }
+
+/* line 687, style/style.scss */
+.navi {
+  margin: 100px 50px;
+  grid-area: navi;
+  color: #adb2b7;
+  font-family: "Sintony"; }
+  /* line 692, style/style.scss */
+  .navi ul {
+    margin-top: 20px; }
+  /* line 695, style/style.scss */
+  .navi li {
+    margin: 5px; }
+
+/* line 699, style/style.scss */
+.newsletter {
+  grid-area: newsletter;
+  margin: 100px 0;
+  color: #adb2b7; }
+  /* line 703, style/style.scss */
+  .newsletter p {
+    margin: 20px 0 0 0; }
+  /* line 706, style/style.scss */
+  .newsletter input:first-of-type {
+    width: 50%;
+    padding: 16px;
+    background-color: #373844;
+    border: 1px solid #adb2b7;
+    border-radius: 2px;
+    margin: 10px 4px 0 0; }
+    /* line 713, style/style.scss */
+    .newsletter input:first-of-type::placeholder {
+      color: white; }
+  /* line 717, style/style.scss */
+  .newsletter .primary {
+    width: 150px; }
+
+/* line 721, style/style.scss */
+.apps {
+  grid-area: apps;
+  margin: 100px 0; }
+  /* line 724, style/style.scss */
+  .apps h3 {
+    margin-bottom: 30px; }
+  /* line 727, style/style.scss */
+  .apps img {
+    margin: 6px; }
+
+/* line 731, style/style.scss */
+.copyright {
+  grid-area: copyright;
+  text-align: center;
+  font-family: Sintony;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: uppercase;
+  letter-spacing: 0.97px;
+  color: #ffffff;
+  letter-spacing: 0.97px; }
 
 /*# sourceMappingURL=style.css.map */
