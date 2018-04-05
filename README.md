@@ -1,5 +1,5 @@
-# PSDtoHTML
-https://palkrzysiek.github.io/PSDtoHTML/
+# PSDtoHTML(without rwd)
+https://palkrzysiek.github.io/PSDtoHTML-no-rwd-/
 
 MAKE ON: 
 
